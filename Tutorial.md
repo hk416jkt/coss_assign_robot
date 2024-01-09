@@ -5,7 +5,14 @@ FMCL research assignment with Park JS, Seong YW, Seong WC
 
 ### 1.1 기본 하드웨어 설정
 https://github.com/hk416jkt/KMU_COSS_FMCL
-해당 링크 참조
+해당 링크 참조하여 기본 설치 진행
+
+````
+cd ~/ros2_ws/src
+git clone https://github.com/hk416jkt/coss_assign_robot_circle
+cb & sb #bash 설정 된 경우 아닐 경우 cd ~/ros2_ws && colcon build --symlink-install && source ~/.bashrc
+````
+
 
 ### 1.2 ROS2 SLAM 실행
 원격 접속 터미널을 총 3개 띄운 후 각 터미널에서 다음 코드들을 실행한다.
