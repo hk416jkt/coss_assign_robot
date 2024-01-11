@@ -17,7 +17,7 @@ def generate_launch_description():
     return LaunchDescription([
         DeclareLaunchArgument('loop_rate', default_value='20'),
         DeclareLaunchArgument('wheel_radius', default_value='0.035'),
-        DeclareLaunchArgument('wheel_base', default_value='0.220'),
+        DeclareLaunchArgument('wheel_base', default_value='0.190'),
         DeclareLaunchArgument('params_file_y', default_value=os.path.join(
                                              share_dir, 'params', 'ydlidar.yaml'),
                                             description='FPath to the ROS2 parameters file to use.'),
