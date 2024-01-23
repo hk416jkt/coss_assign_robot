@@ -39,7 +39,7 @@ ros2 launch circle_node cartographer.launch.py
 ````
 cd ~/ros2_ws
 source install/setup.bash
-rviz2 -d ~/ros2_ws/src/coss_assign_robot_circle/coss-assign_robot/circle_cartographer/rviz/circle_cartographer.rviz 
+rviz2 -d ~/ros2_ws/src/coss_assign_robot/coss_assign_robot_circle/circle_cartographer/rviz/circle_cartographer.rviz 
 ````
 이후 다음과 같이 맵을 완성한다. 이때 중요한 것은 맵이 완전히 닫혀 있어야 한다. 그렇지 않을 경우, 추후 경로 생성 시 문제가 생기는 결과가 생길 수 있으므로, 최대한 꼼꼼히 생성한다.
 이미지 삽입 하기
